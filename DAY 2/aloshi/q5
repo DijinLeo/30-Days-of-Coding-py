@@ -1,0 +1,8 @@
+students = []
+
+name = input("Enter student's name: ")
+age = int(input("Enter student's age: "))
+
+students.append((name, age))
+
+print("Student's list:", students)
