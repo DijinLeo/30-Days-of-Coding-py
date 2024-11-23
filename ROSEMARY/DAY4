@@ -1,0 +1,62 @@
+#PROGRAM1
+number=int(input("ener how many numbers you want in the list"))
+a=[]
+small=None
+for i in range(number):
+    c=int(input("enter the numbers"))
+    a.append(c)
+    if(small==None or c<small  ):
+        small=c
+print(a)
+print("the smallest number entered by the user",small)
+
+
+
+#PROGRAM2
+a=int(input("enter the limit"))
+c=[]
+sum=0
+for i in range (a):
+    number=int(input("enter the numbers"))
+    c.append(number)
+    sum=sum+number
+print(c)
+print("the sum of elements",sum)
+
+
+
+#PROGRAM3
+a=int(input("enter the year"))
+if(a%4==0):
+    print(a," is a leap year")
+else:
+    print(a," is not a leap year")
+
+
+
+#PROGRAM4
+a=input("enter a sentence")
+words=a.split( )
+print(len(words))
+
+
+
+#PROGRAM5
+a=int(input("enter a number"))
+b=int(input("enter a number"))
+c=input("enter + for addition ,- for subtraction ,* for multiplication / for division")
+match (c):
+    case '+':
+        sum=a+b
+        print("the sum of numbers ",sum)
+    case '-':
+        difference=a-b
+        print("the subtraction value ",difference)
+    case '*':
+        product=a*b
+        print("the product if the digits ",product)
+    case '/':
+        division=a/b
+        print("the division is ",division)
+    case _:
+        print("invalid entry")
