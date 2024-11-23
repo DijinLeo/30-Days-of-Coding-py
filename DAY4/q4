@@ -1,0 +1,14 @@
+sentence = input("Enter a sentence: ")
+word_count = 0
+i = 0
+in_word = False
+
+while i < len(sentence):
+    if sentence[i] != ' ' and not in_word:
+        word_count += 1
+        in_word = True
+    elif sentence[i] == ' ':
+        in_word = False
+    i += 1
+
+print("The number of words is:", word_count)
