@@ -1,0 +1,15 @@
+numbers = input("Enter numbers separated by spaces: ")
+numbers_list = []
+i = 0
+while i < len(numbers):
+    number = ""
+    while i < len(numbers) and numbers[i] != " ":
+        number += numbers[i]
+        i += 1
+    numbers_list.append(int(number))
+    i += 1
+smallest = numbers_list[0]
+for num in numbers_list:
+    if num < smallest:
+        smallest = num
+print("The smallest number is:", smallest)
