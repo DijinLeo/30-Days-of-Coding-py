@@ -1,0 +1,11 @@
+numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
+order = input("Type 'asc' for ascending or 'desc' for descending order: ").strip().lower()
+
+if order == 'asc':
+    sorted_numbers = sorted(numbers)
+elif order == 'desc':
+    sorted_numbers = sorted(numbers, reverse=True)
+else:
+    sorted_numbers = numbers
+
+print("Sorted numbers:", sorted_numbers)
