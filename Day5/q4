@@ -1,0 +1,6 @@
+n = int(input("Enter the number of elements: "))
+for _ in range(n):
+    num = int(input("Enter a number: "))
+    if num not in numbers:
+        numbers.append(num)
+print("List without duplicates:", numbers)
