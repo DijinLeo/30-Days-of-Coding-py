@@ -1,0 +1,68 @@
+#program1
+import math
+number=int(input("enter an number"))
+split=0
+while(number>0):
+    digit=number%10
+    split=split+(math.pow(digit,3))
+    number=number//10
+print("armstrong number ",split)
+
+
+#program2
+limit=int(input("enter your limit"))
+a=[]
+large=None
+small=None
+for i in range(limit):
+    number=int(input("enter your values"))
+    a.append(number)
+    if( large==None or large<number ):
+        large=number
+    if( small==None or small>number ):
+        small=number
+print(a)
+print("maximum ",large)
+print("minimum ",small)
+
+
+#program3
+limit=int(input("enter your limit"))
+a=[]
+for i in range (limit):
+    number=int(input("enter your value"))
+    a.append(number)
+print(a)
+a.sort()
+print("in ascending order ",a)
+a.sort(reverse=True)
+print("in desending order ",a)
+
+
+#program4
+limit=int(input("enter your limit"))
+a=[]
+new_list=[]
+for i in range (limit):
+    number=int(input("enter your value"))
+    a.append(number)
+for j in a:
+    if(j not in new_list):
+        new_list.append(j)
+print(a)
+print("the list without duplicates ",new_list)
+
+
+#program5
+a=int(input("enter the number"))
+b=int(input("enter the number"))
+if(a>b):
+    for i in range(1,a+1):
+        if(a%i==0 and b%i==0):
+            j=i
+    print(j)
+if(b>a):
+    for i in range(1,a+1):
+        if(a%i==0 and b%i==0):
+            m=i
+    print(m)
