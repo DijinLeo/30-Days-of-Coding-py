@@ -1,0 +1,25 @@
+Day6
+1.Check Perfect Number
+
+Write a program to check if a given number is a perfect number (e.g., 6 is perfect because 1 + 2 + 3 = 6).
+
+
+---
+
+2. Find the Second Largest Number
+
+Write a program to find the second largest number in a list entered by the user.
+
+
+---
+
+3. Count Digits in a Number
+
+Write a program to count the number of digits in an integer entered by the user.
+Calculate the Power of a Number
+
+4.Write a program to calculate the  power of a number (e.g., x^y) using a loop or the built-in operator.
+
+5. Find the Sum of Digits
+
+Write a program to find the sum of all digits in a given number.
