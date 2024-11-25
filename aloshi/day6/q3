@@ -1,0 +1,6 @@
+number = input("Enter an integer: ")
+count = 0
+for digit in number:
+    if digit.isdigit():
+        count += 1
+print("The number of digits is:", count)
