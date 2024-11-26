@@ -1,0 +1,62 @@
+#program1
+n=int(input("enter a number"))
+m=0
+sum=0
+while(m<n):
+    sum=m+sum
+    if(sum==n):
+        print(n,"  is a perfect number")
+        break
+    if(sum<n):
+        m=m+1
+    if(sum>n):
+        print(n, "  is not a perfet number")
+        break
+
+
+
+#program2
+limit=int(input("enter your limit"))
+a=[]
+new_list=[]
+for i in range (limit):
+    number=int(input("enter your value"))
+    a.append(number)
+large=None
+large1=None
+for k in a:
+    if(large==None or large>i):
+        large=k
+a.remove(large)
+for j in a:
+    if(large1==None or large1>i):
+        large1=j
+print("the second largest number  ",large1)
+
+
+
+#program3
+import math
+n=int(input("enter a number"))
+string=str(n)
+count=len(string)
+print(count , " is the count of the digits in the number")
+power=int(input("enter the power"))
+print(math.pow(n,power), " is the power to which the number is raised")
+
+
+#program4
+a=int(input("enter your number"))
+b=int(input("enter the nmber till where you want it to be powered"))
+for i in range(b+1):
+    print(a**i)
+
+
+#program5
+n=int(input("enter your number"))
+sum=0
+while(n>0):
+    rem=n%10
+    sum=sum+rem
+    n=n//10
+print("the sum of the digits ",sum)
