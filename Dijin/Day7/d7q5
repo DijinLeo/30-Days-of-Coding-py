@@ -1,0 +1,5 @@
+x=int(input("enter the mark of 1st sub"))
+y=int(input("enter the mark of 2nd sub"))
+z=int(input("enter the mark of 3rd sub"))
+a=(x+y+z)/3
+print(a," is the average")
