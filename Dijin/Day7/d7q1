@@ -1,0 +1,3 @@
+x=int(input("enter the number"))
+y=x*x
+print(y)
