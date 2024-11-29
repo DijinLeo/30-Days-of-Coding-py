@@ -1,0 +1,9 @@
+import math
+
+number = float(input("Enter a number to find its square root: "))
+
+if number < 0:
+    print("Square root of a negative number is not real.")
+else:
+    square_root = math.sqrt(number)
+    print(f"The square root of {number} is {square_root:.2f}")
