@@ -1,0 +1,3 @@
+string = input("Enter a string: ")
+count = len(string)
+print("The number of characters in the string is:", count)
