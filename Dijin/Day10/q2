@@ -1,0 +1,7 @@
+li=input("enter the values by givng space")
+lis=list(li.split())
+
+sum=0
+for i in lis:
+    sum+=int(i)
+print(sum)
