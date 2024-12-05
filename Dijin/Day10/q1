@@ -1,0 +1,15 @@
+def primecheck(num):
+    if num<2:
+        return False
+    for i in range (2,int(num/2+1)):
+        if num%i==0:
+            return False
+    return True
+
+st=int(input("entr the starting value"))
+ed=int(input("enter the neding values"))
+prime=[]
+for i in range(st,ed+1):
+    if primecheck(i):
+        prime.append(i)
+print(prime)
