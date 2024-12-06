@@ -1,0 +1,8 @@
+start = int(input("Enter the starting number: "))
+end = int(input("Enter the ending number: "))
+print(f"Armstrong numbers between {start} and {end}:")
+for num in range(start, end + 1):
+    total = sum(int(digit) ** len(str(num)) for digit in str(num))
+    if num == total:
+        print(num, end=" ")
+print()
