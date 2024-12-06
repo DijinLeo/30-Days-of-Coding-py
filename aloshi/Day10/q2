@@ -1,0 +1,4 @@
+numbers=input("enter the numbers :")
+numbers_list=list(map(int,numbers.split()))
+total_sum=sum(numbers_list)
+print(f"the sum of all elements in the list are:{total_sum}")
