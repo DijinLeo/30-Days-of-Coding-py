@@ -1,0 +1,4 @@
+user_list = input("Enter elements of the list separated by spaces: ")
+elements = user_list.split()
+elements.reverse()
+print("The list in reverse order is:", elements)
