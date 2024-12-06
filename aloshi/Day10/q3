@@ -1,0 +1,5 @@
+decimal_number = int(input("Enter a decimal number: "))
+
+binary_equivalent = bin(decimal_number)[2:]
+
+print(f"The binary equivalent of {decimal_number} is {binary_equivalent}.")
