@@ -1,0 +1,32 @@
+Day10
+1.Check Prime Number in a Range
+
+Write a program to display all prime numbers between two numbers entered by the user.
+
+
+---
+
+2. Calculate the Sum of a List
+
+Write a program to calculate and display the sum of all elements in a list entered by the user.
+
+
+---
+
+3. Convert Decimal to Binary
+
+Write a program to convert a decimal number entered by the user into its binary equivalent.
+
+
+---
+
+4. Find the ASCII Value of a Character
+
+Write a program to display the ASCII value of a character entered by the user.
+
+
+---
+
+5. Print Reverse of a List
+
+Write a program to print a list in reverse order. The list should be entered by the user.
