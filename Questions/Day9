@@ -1,0 +1,15 @@
+day9
+1.
+Write a program to calculate the cube of a number entered by the user.
+
+2. Check for Uppercase or Lowercase
+Write a program to check whether a character entered by the user is uppercase or lowercase.
+
+3. Reverse a Number
+Write a program to reverse the digits of a number entered by the user (e.g., input 1234 → output 4321).
+
+4. Count the Length of a String
+Write a program to count and display the number of characters in a string entered by the user.
+
+5. Print the Sum of Natural Numbers
+Write a program to calculate and print the sum of all natural numbers up to n, where n is entered by the user.
