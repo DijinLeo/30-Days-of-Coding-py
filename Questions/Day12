@@ -1,0 +1,39 @@
+Day 12
+---
+
+1. Calculate the Power of a Number
+
+Write a program to calculate the result of a number raised to a power using a loop (e.g., , where x and y are entered by the user).
+
+
+---
+
+2. Find the Average of Numbers in a List
+
+Write a program to calculate and display the average of all numbers in a list entered by the user.
+
+
+---
+
+3. Find Numbers Divisible by a Given Number
+
+Write a program to find all numbers in a list that are divisible by a given number.
+
+
+---
+
+4. Check for a Perfect Square
+
+Write a program to check if a number entered by the user is a perfect square or not.
+
+
+---
+
+5. Print a Star Pyramid Pattern
+
+Write a program to print the following star pyramid pattern for n rows:
+
+     * 
+   ***  
+  *****  
+*******
