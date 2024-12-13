@@ -1,0 +1,33 @@
+Day11
+---
+
+1. Check Armstrong Numbers in a Range
+
+Write a program to display all Armstrong numbers between two numbers entered by the user.
+
+
+---
+
+2. Calculate the Sum of Digits in a Number
+
+Write a program to calculate the sum of the digits of a number entered by the user.
+
+
+---
+
+3. Find All Factors of a Number
+
+Write a program to find and display all factors of a number entered by the user.
+
+
+---
+
+4. Count Uppercase and Lowercase Letters
+
+Write a program to count the number of uppercase and lowercase letters in a string entered by the user.
+
+
+---
+5. Check for Substring
+
+Write a program to check if one string is a substring of another. Both strings should be entered by the user.
