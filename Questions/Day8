@@ -1,0 +1,35 @@
+day 8
+---
+
+1. Find Square Root
+
+Write a program to find the square root of a number entered by the user.
+
+
+---
+
+2. Calculate Perimeter of a Rectangle
+
+Write a program to calculate the perimeter of a rectangle using the formula:
+Perimeter = 2 × (Length + Breadth)
+
+
+---
+
+3. Check Alphabet or Not
+
+Write a program to check whether a character entered by the user is an alphabet or not.
+
+
+---
+
+4. Print Odd Numbers in a Range
+
+Write a program to print all odd numbers between two numbers entered by the user.
+
+
+---
+
+5. Swap Two Numbers
+
+Write a program to swap the values of two variables entered by the user without using a third variable.
