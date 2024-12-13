@@ -1,6 +1,5 @@
 # 30 Days of Coding Challenge 🚀
 
-![30 Days of Coding Challenge](python.png)
 Welcome to the **30 Days of Coding Challenge**! 🎉
 
 ## 📚 About the Challenge
