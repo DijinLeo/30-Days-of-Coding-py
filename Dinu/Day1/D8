@@ -1,0 +1,45 @@
+#program1
+import math
+a=int(input("enter a number"))
+print("square root of the number ",math.sqrt(a))
+
+
+
+#program2
+length=int(input("enter the length of the rectangle"))
+breath=int(input("enter the bradth of the rectangle"))
+perimeter=2*(length+breath)
+print("perimeter of the rectangle ",perimeter)
+
+
+#program3
+a=input("enter a character")
+s=a.upper()
+n=0
+for i in range(ord('A'),ord('z')+1):
+    if(i==ord(s)):
+        n=1
+if(n==1):
+    print(a," is an alphabet")
+else:
+    print(a,"  is not an alphabet")
+
+
+#program4
+n=int(input("enter the starting value"))
+m=int(input("enter the  stop value"))
+print(" odd numbers are")
+for i in range(n,m+1):
+    if(i%2!=0):
+
+        print(i,end="  ")
+
+
+#program5
+a=int(input("enter a number"))
+b=int(input("enter a number"))
+a=a+b
+b=a-b
+a=a-b
+print("swap of number 1 ",a)
+print("swap of number 2 ",b)
