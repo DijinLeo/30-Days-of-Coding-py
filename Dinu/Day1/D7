@@ -1,0 +1,42 @@
+#program1
+import math
+n=int(input("enter a number"))
+print("square of the number ",math.pow(n,2))
+
+
+#program2
+n=int(input("enter a number"))
+if(n>0):
+    print(n," is a positive number")
+elif(n<0):
+    print(n," is a negative number")
+else:
+    print(" the number is zero")
+
+
+#program3
+n = int(input("Enter a number: "))
+i = 2
+while i <= n:
+    if n % i == 0:
+        n //= i
+    else:
+        i += 1
+print("Largest prime factor:", i)
+
+
+#program4
+a=int(input("enter the starting value"))
+b=int(input("enter the stopt value"))
+for i in range (a,b+1):
+    print(i)
+
+
+#program5
+a=int(input("enter your marks for english"))
+b=int(input("enter your marks for marks"))
+c=int(input("enter the marks for science"))
+d=int(input("enter your marks for social"))
+e=int(input("enter your marks for hindi"))
+f=(a+b+c+d+e)/5
+print("the average of marks entered by the user ",f)
