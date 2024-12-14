@@ -1,0 +1,28 @@
+#PROGRAM 1
+Value=30
+for val in range(Value):
+    if(val%4==0):
+        print(val*4)
+    elif(val%5==0):
+        print(val+3)
+    else:
+        print(val+0)
+#PROGRAM 2
+list_seperate=[1,2,3,4,5,6,7,8,9,10]
+for i in  list_seperate:
+    print(i)
+#PROGRAM 3
+n=int(input("enter a number"))
+if(n%2==0):
+    print(n,"   is a even number")
+#PROGRAM 4
+n=int(input("enter a number"))
+if(n%2!=0):
+    print(n,"  is an odd number")
+#PROGRAM 5
+a=input("enter your name")
+b=int(input("enter your age"))
+c=[]
+c.append(a)
+c.append(b)
+print(c)
