@@ -1,0 +1,47 @@
+#PROGRAM1
+n=int(input("enter the value"))
+m=int(input("enter the value"))
+sum=n+m
+print("the sum of the the two numbers is ",sum)
+
+#PROGRAM2
+a=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+even=[]
+odd=[]
+for i in a:
+    if(i%2==0):
+        print(i," is a even number")
+        even.append(i)
+    else:
+        print(i,  "is a odd number")
+        odd.append(i)
+print("the revise even number list is  ",even)
+print("the revise odd number list  ",odd)
+
+#PROGRAM3
+string=input("enter a word")
+reverse_string=""
+a= len(string)-1
+for i in range (a,-1,-1):
+    reverse_string=reverse_string+string[i]
+print(reverse_string)
+
+#PROGRAM4
+multipy=int(input("enter the number till where you want to multipy"))
+number=int(input("enter the number which you want to multipy"))
+for i in range(multipy+1):
+    table=number*i
+    print(number," * ",i," = ",table)
+
+#PROGRAM5
+number=int(input("enter a number"))
+i=2
+prime=0
+while(i<number):
+    if(number%i==0):
+        prime=1
+    i=i+1
+if(prime==0):
+    print(number," is a prime number")
+else:
+    print(number," is not a prime number")
